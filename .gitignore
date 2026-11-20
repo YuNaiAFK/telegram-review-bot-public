@@ -1,0 +1,17 @@
+config.json
+reviews.sqlite3*
+__pycache__/
+.env
+.tgcloud/
+owner.session*
+bot-token.xml
+owner-api.xml
+bot.log*
+startup.log
+stop.request
+bot.lock
+node_modules/
+.wrangler/
+owner-probe.dpapi*
+staging-bot.dpapi*
+deployment.local.json

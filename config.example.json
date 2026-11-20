@@ -1,0 +1,14 @@
+{
+  "owner_id": 123456789,
+  "reviewer_ids": [
+    123456789
+  ],
+  "common_group_mode": "owner_account",
+  "min_common_groups": 8,
+  "common_group_ids": [],
+  "targets": {
+    "-1001234567890": "你从哪里知道这个群？为什么想加入？",
+    "-1009876543210": "你想从这个频道获取什么内容？"
+  },
+  "admission_mode": "private_invite"
+}

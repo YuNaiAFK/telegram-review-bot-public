@@ -1,0 +1,36 @@
+{
+  "name": "tg-review-free-probe",
+  "main": "free-probe.mjs",
+  "compatibility_date": "2026-11-20",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": true,
+  "preview_urls": false,
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "PROBE",
+        "class_name": "OwnerProbe"
+      },
+      {
+        "name": "STAGING_REVIEW",
+        "class_name": "ReviewState"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": [
+        "OwnerProbe"
+      ]
+    },
+    {
+      "tag": "v2",
+      "new_sqlite_classes": [
+        "ReviewState"
+      ]
+    }
+  ]
+}

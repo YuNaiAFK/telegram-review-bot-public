@@ -1,0 +1,13 @@
+{
+  "name": "review-bot-cloudflare",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "inventory": "node inventory.mjs",
+    "probe:owner": "node owner-probe.mjs"
+  },
+  "dependencies": {
+    "teleproto": "1.233.0"
+  }
+}

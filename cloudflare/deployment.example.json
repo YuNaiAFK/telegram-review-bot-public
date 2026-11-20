@@ -1,0 +1,6 @@
+{
+  "workerName": "tg-review-free-probe",
+  "workerUrl": "https://tg-review-free-probe.example.workers.dev",
+  "testBotUsername": "example_test_bot",
+  "productionBotUsername": "example_review_bot"
+}
